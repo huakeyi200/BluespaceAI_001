@@ -36,8 +36,8 @@ export interface AISettings {
 export const DEFAULT_SETTINGS: AISettings = {
   apiKey: "",
   baseUrl: "https://api.freetheai.xyz/v1",
-  chatModel: "yng/gpt-5.5",
-  imageModel: "vhr/gpt_image_2",
+  chatModel: "glm/glm-4.7",
+  imageModel: "img/gpt-image-2",
   jailbreak: "",
 };
 
